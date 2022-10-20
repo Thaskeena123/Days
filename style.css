@@ -1,0 +1,29 @@
+table,th,td,tr{
+    border-collapse: collapse;
+    border: 5px solid lightpink;
+    margin: 30px;
+    font-size: 30px;
+    
+}
+table{
+    width: 30%;
+    height: 70%;
+    
+}
+th{
+    background-color: brown;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: pink;
+}
+tr:nth-child(odd){
+    background-color: lightcyan;
+}
+td{
+    text-align: center;
+}
+a{
+    color: black;
+}
+
