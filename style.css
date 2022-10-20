@@ -1,13 +1,14 @@
 table,th,td,tr{
     border-collapse: collapse;
-    border: 5px solid lightpink;
-    margin: 30px;
+    margin-top: 15%;
     font-size: 30px;
+    border: 1px solid white;
     
 }
 table{
     width: 30%;
     height: 70%;
+    border-spacing: 10px;
     
 }
 th{
@@ -25,5 +26,11 @@ td{
 }
 a{
     color: black;
+}
+th,td{
+    border-bottom: 1px solid rgb(247, 149, 149);
+}
+tr:hover {
+    background-color: rgb(156, 80, 255);
 }
 
