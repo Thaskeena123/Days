@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 .banner{
     width: 100%;
@@ -60,6 +59,7 @@
 .content h1{
     font-size: 70px;
     margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .content p{
     margin: 20px auto;
@@ -82,7 +82,7 @@ button{
 
 }
 span{
-    background: #185746;
+    background: #181957;
     height: 100%;
     width: 0%;
     border-radius: 25px;
